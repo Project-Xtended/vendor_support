@@ -27,4 +27,11 @@
         <attr name="continuousUpdates" format="boolean" />
     </declare-styleable>
 
+    <!-- Base attributes available to CircularImageView -->
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean"/>
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+    </declare-styleable>
+
 </resources>
