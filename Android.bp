@@ -9,6 +9,7 @@ android_library {
     srcs: ["src/**/*.java"],
 
     static_libs: [
+        "androidx.cardview_cardview",
         "androidx.core_core",
         "androidx.preference_preference",
         "androidx.appcompat_appcompat",
